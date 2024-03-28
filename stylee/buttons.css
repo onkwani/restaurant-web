@@ -1,0 +1,43 @@
+.btn{
+
+background-color: #cea135;
+color: #11122b;
+font-size:1.25em;
+padding:10px 25px;
+border:1px solid #cea135;
+border-radius:2px;
+outline:none;
+transition:0.3s;
+
+}
+.btn:active{
+    box-shadow:5px 5px 30px rgba(0, 0, 0, 0.4) ;
+    
+    }
+.form label{
+font-size:1.2rem;
+font-weight:700;
+margin-left:2rem;
+margin-top:0.7rem;
+display:block;
+transition: all 0.3s;
+color: #cea135;
+opacity:0;
+visibility: hidden;
+}
+.form input:focus{
+outline: none;
+box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.1);
+border-bottom:3px solid #cea135;
+
+}
+.form input:focus + label,.form textarea:focus + label{
+    opacity: 2;
+    visibility: visible;
+    transform: translateY(0.1rem);
+}
+.specer10{
+    height:10px;
+    width:100% ;
+
+}
